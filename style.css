@@ -1546,3 +1546,60 @@ font-size:15px;
 }
 
 }
+/* Mobile Navigation */
+
+@media (max-width:900px){
+
+.nav-links{
+
+position:absolute;
+
+top:80px;
+
+left:0;
+
+width:100%;
+
+background:#0a0a0a;
+
+display:none;
+
+flex-direction:column;
+
+align-items:center;
+
+padding:25px 0;
+
+gap:20px;
+
+}
+
+.nav-links.show-menu{
+
+display:flex;
+
+animation:slideDown .4s ease;
+
+}
+
+}
+
+@keyframes slideDown{
+
+from{
+
+opacity:0;
+
+transform:translateY(-20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
