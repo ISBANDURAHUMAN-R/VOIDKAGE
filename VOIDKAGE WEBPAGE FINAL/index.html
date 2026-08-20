@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VOIDKAGE — anime / design / edits.">
+  <title>VOIDKAGE® — Enter the Void</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-transition" aria-hidden="true">
+    <div class="transition-noise"></div>
+    <div class="transition-mark">VOIDKAGE<span>®</span></div>
+    <div class="transition-line"><i></i></div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <div class="grain"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="nav">
+    <a href="index.html" class="brand">
+      <span class="brand-logo"><img src="images/logo.png" alt="VOIDKAGE logo" onerror="this.parentElement.innerHTML='<span>VK</span>'"></span>
+      VOIDKAGE<span>®</span>
+    </a>
+    <div class="nav-center">
+      <a href="archive.html" class="">ARCHIVE</a>
+      <a href="about.html" class="">ABOUT</a>
+      <a href="shop.html" class="">SHOP</a>
+      <a href="contact.html" class="">CONTACT</a>
+    </div>
+    <button class="menu" aria-label="Open menu">MENU <i>+</i></button>
+  </header>
+
+  <div class="menu-panel">
+    <button class="menu-close">CLOSE ×</button>
+    <nav>
+      <a href="index.html" class="active">00 — HOME</a>
+      <a href="archive.html" class="">01 — ARCHIVE</a>
+      <a href="about.html" class="">02 — ABOUT</a>
+      <a href="shop.html" class="">03 — SHOP</a>
+      <a href="contact.html" class="">04 — CONTACT</a>
+    </nav>
+    <span>VOIDKAGE® / CHENNAI</span>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-top">
+        <span>VOIDKAGE / CREATIVE SYSTEM</span>
+        <span>SCROLL TO DISTURB THE VOID ↓</span>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-copy">
+          <p class="eyebrow">ANIME / VISUAL / CHAOS</p>
+          <h1>VOID<br><em>KAGE</em><sup>®</sup></h1>
+          <p class="hero-desc">A personal archive of anime edits, posters, thumbnails and visual experiments. Still building. Still evolving.</p>
+        </div>
+
+        <div class="orb-wrap" aria-hidden="true">
+          <div class="orb-label">MOVE ME<br>↗</div>
+          <canvas id="void-canvas"></canvas>
+          <div class="orb-cross"></div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 / ENTER</span>
+        <a href="archive.html">VIEW THE WORK <b>↓</b></a>
+        <span>EST. 2026</span>
+      </div>
+    </section>
+
+    <section class="manifesto reveal-section">
+      <div class="section-line"><span>00 / MANIFESTO</span><span>NO TEMPLATE</span></div>
+      <div class="manifesto-grid reveal-stagger">
+        <h2>MAKE IT<br><span>LOUD.</span></h2>
+        <div class="manifesto-copy">
+          <p>VOIDKAGE isn't trying to look like a company that already made it.</p>
+          <p>It's a creative playground. Some things hit. Some don't. Everything gets made anyway.</p>
+          <div class="scribble">KEEP<br>GOING.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lab" class="lab reveal-section">
+      <div class="section-line"><span>02 / THE LAB</span><span>INTERACTIVE EXPERIMENT</span></div>
+      <div class="lab-stage reveal-stagger">
+        <div class="lab-copy">
+          <span>NOT A BUTTON.</span>
+          <h2>BREAK<br><i>THE</i><br>GRID.</h2>
+          <p>Drag the object. Throw it around. This is the part of the website where things are allowed to be unnecessary.</p>
+        </div>
+        <div class="cube-zone">
+          <div class="cube" id="cube">
+            <div class="face front">VK</div>
+            <div class="face back">VOID</div>
+            <div class="face right">KAGE</div>
+            <div class="face left">03</div>
+            <div class="face top">®</div>
+            <div class="face bottom">2026</div>
+          </div>
+          <span class="drag-label">DRAG / ROTATE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="coming reveal-section">
+      <div class="coming-inner">
+        <span>STORE / 000</span>
+        <h2>THE STORE<br>IS <i>COMING.</i></h2>
+        <a href="shop.html">SEE WHAT'S COMING ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>VOIDKAGE®</span><span>CHENNAI / INDIA</span><span>© 2026 — KEEP EVOLVING</span></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
